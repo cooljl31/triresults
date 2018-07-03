@@ -55,7 +55,7 @@ group :test do
     gem 'rspec-rails'
     gem 'mongoid-rspec'
     gem 'capybara'
-    gem 'interactive_editor'
+    gem 'interactive_editor', '>= 0.0.10'
     gem 'awesome_print'
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -52,7 +52,7 @@ end
 #end
 
 group :test do
-    gem 'rspec-rails'
+    gem 'rspec-rails', '>= 8.0.0'
     gem 'mongoid-rspec'
     gem 'capybara'
     gem 'interactive_editor'
